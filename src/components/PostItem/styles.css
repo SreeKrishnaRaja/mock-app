@@ -1,0 +1,85 @@
+.post-item {
+  min-height: 100px;
+  border-radius: 2px;
+  background: #fff;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.15), 0 2px 3px rgba(0,0,0,.2);
+  margin: 15px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-details {
+  margin: 10px 0 0 10px;
+}
+
+.user-details-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.user-image img {
+  height: 50px;
+  width: 50px;
+  border: 1px solid #ccc;
+  border-radius: 100%;
+}
+
+.user-name {
+  line-height: 1.4;
+  font-size: 18px;
+  margin: 0px 0px 0 12px;
+}
+
+.status {
+  display: flex;
+  flex-direction: row;
+  margin: 2px 0px 0 12px;
+}
+
+.status-icon {
+  height: 10px;
+  width: 10px;
+  background-color: #008000;
+  border-radius: 100%;
+  margin-right: 4px;
+  margin-top: 3px;
+}
+
+.offline {
+  background-color: #ccc;
+}
+
+.status-text {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.post-body {
+  margin: 10px 0 10px 10px;
+}
+
+hr {
+  border: 1px solid #e6e9ec;
+  width: calc(100% - 20px);
+  margin-left: 10px;
+}
+
+.icons {
+  margin-left: 20px;
+}
+
+.icon {
+  color: #0073b1c9;
+}
+
+.icon span {
+  font-size: 12px;
+}
+
+i {
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  margin-right: 3px;
+  margin-left: 2px;
+}

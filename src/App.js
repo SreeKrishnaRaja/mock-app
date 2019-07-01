@@ -1,17 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
 
 import Home from './containers/Home';
 import Login from './containers/Login';
-import { Router, Link } from "@reach/router";
+import { Router } from "@reach/router";
 
 function App() {
+  const [userData, setUserData] = useState({ username: '', email: '' });
   return (
     <div className="App">
       <Router>
-        <Home path="/" />
-        <Login path="/login" />
+        <Login path="/login" setUserData={setUserData} userData={userData} />
+        <Home path="/" userData={userData} />
+        <Home path="/post/:id" userData={userData} />
       </Router>
     </div>
   );

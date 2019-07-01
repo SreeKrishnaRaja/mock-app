@@ -1,0 +1,133 @@
+.login-wrapper {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: #fff;
+}
+
+.login-container {
+  display:inline-block;
+}
+
+.sub-container {
+  height: 100%;
+  width: 450px;
+  padding: 50px 0;
+  border: 2px solid #0073b1;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.sub-header {
+    font-size: 24px;
+    font-weight: 500px;
+}
+
+.tab-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.tab {
+  width: 50%;
+  border-top: 1px solid #0073b1;
+  border-bottom: 1px solid #0073b1;
+  color: #0073b1;
+  padding: 10px 0;
+  cursor: pointer;
+}
+.tab.active {
+  color: #fff;
+  background: #0073b1;
+  border-top: 1px solid #0073b1;
+  border-bottom: 1px solid #0073b1;
+}
+.tab:hover {
+  color: #fff;
+  background: #0073b1;
+}
+
+input {
+  display: block;
+  width: 300px;
+  border-radius: 3px;
+  color: rgba(0,0,0,0.9);
+  border: 1px solid rgba(0,0,0,0.6);
+  font-size: 20px;
+  padding-top: 25px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
+
+/* input:invalid {
+  border-color: red; */
+/* } */
+
+input:focus {
+  font-size: 20px;
+  padding-top: 23px;
+  border: 2px solid #0073b1;
+  outline: 0;
+}
+
+input.invalid {
+  border: 2px solid red;
+}
+
+.input-error {
+  margin-top: 2px;
+  color: red;
+}
+
+.input-wrapper {
+  position: relative;
+  width: 300px;
+  margin: 20px 75px;
+}
+
+label {
+  font-size: 14px;
+  position: absolute;
+  top: 3px;
+  left: 10px;
+}
+
+label.unempty {
+  font-size: 20px;
+  left: 20px;
+  top: 18px;
+  font-weight: 400;
+}
+
+.button-primary {
+  height: 50px;
+  width: 40%;
+  margin: 0 5%;
+  background: #0073b1;
+  color: #fff;
+  border-radius: 3px;
+  border: 1px solid #0073b1;
+  cursor: pointer;
+}
+
+.button-secondary {
+  color: #0073b1;
+  background: #fff;
+  border: 1px solid #0073b1;
+  height: 50px;
+  width: 40%;
+  margin: 0 5%;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.button-disabled {
+  color: #000;
+  background: #ddd;
+  border: 1px solid #ccc;
+  height: 50px;
+  width: 40%;
+  margin: 0 5%;
+  border-radius: 3px;
+  cursor: not-allowed;
+}

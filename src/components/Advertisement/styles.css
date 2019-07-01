@@ -1,0 +1,58 @@
+.wrapper {
+  width: 100%;
+}
+
+.advert-one {
+  cursor: pointer;
+  margin: 15px 20px 30px 20px;
+  position: relative;
+}
+
+.advert-one img {
+  width: 210px;
+  border-radius: 3px;
+}
+
+.hover-title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 30px;
+  color: #fff;
+  font-size: 36px;
+  display: inline-block;
+}
+
+.hover-button {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 50px;
+  color: #fff;
+  border: 2px solid #fff;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 4px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.ad-info {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  font-size: 12px;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 5px;
+  border-radius: 2px;
+  background: transparent;
+}
+
+.disclaimer {
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  font-size: 10px;
+  color: #fff;
+}

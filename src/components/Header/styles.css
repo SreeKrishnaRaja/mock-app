@@ -1,0 +1,31 @@
+
+.header-wrapper {
+  align-items: center;
+  display: flex;
+  border-bottom: 2px solid #0073b1c9;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 10;
+}
+
+#logo, nav {
+  flex: 1;
+}
+
+#logo {
+  text-align: left;
+  padding-left: 35px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li {
+  list-style: none;
+  cursor: pointer;
+}
